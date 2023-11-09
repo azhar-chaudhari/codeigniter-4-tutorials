@@ -134,7 +134,7 @@ return [
 		'first_name' =>'पहला नाम',
 		'last_name' =>  'उपनाम',
 		'email' =>  'ईमेल',
-        'mobile' =>  'गतिमान',
+        'mobile' =>  'मोबाइल',
 		'password' =>  'पासवर्ड',
 		'confirm_password' =>  'पासवर्ड की पुष्टि कीजिये',
 ];
