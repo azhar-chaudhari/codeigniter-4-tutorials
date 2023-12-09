@@ -7,4 +7,4 @@ Below is a list of the available code samples along with their directories and l
 |Sr.No. | Directory/Resource Name | Link |
 |-------|-------------------|------|
 |1 | CodeIgniter 4- Language        | [Language](https://github.com/azhar-chaudhari/codeigniter-4-tutorials/tree/main/Localization) |
-|2 | CodeIgniter 4- Model,Sql queries        | [Language](https://github.com/azhar-chaudhari/codeigniter-4-tutorials/tree/main/Queries) |
+|2 | CodeIgniter 4- Model,Sql queries        | [Queries](https://github.com/azhar-chaudhari/codeigniter-4-tutorials/tree/main/Queries) |
