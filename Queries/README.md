@@ -156,3 +156,24 @@ Delete record using condition provided
         return redirect()->to('/tasks');
     }
 ``` 
+### Insert a record and get last inserted id (single row)
+
+```php
+    public function store()
+    {
+        $taskModel = new TaskModel();
+
+        $data = [
+            'title' => $this->request->getPost('title'),
+            'description' => $this->request->getPost('description'),
+            'due_date' => $this->request->getPost('due_date'),
+            'priority' => $this->request->getPost('priority'),
+            'created_date' => date('Y-m-d H:i:s'),
+        ];
+
+        $taskModel->insert($data);
+        $task_id = $taskModel->getInsertID();
+        
+        return redirect()->to('/tasks');
+    }
+ ``` 
